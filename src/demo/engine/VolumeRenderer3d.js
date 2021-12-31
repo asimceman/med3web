@@ -1218,14 +1218,18 @@ export default class VolumeRenderer3d {
       this.renderer.render(this.scene, this.camera);
       return;
     }*/
-    if (!this.isReadyToRender()) {
-      return;
-    }
+    // if (!this.isReadyToRender()) {
+    //   console.log("Life is but a dream2");
+    //   return;
+    // }
     const matReady = (this.matVolumeRender !== null) && (this.matBF !== null) &&
       (this.matFF !== null) && (this.matRenderToTexture !== null);
     if (!matReady) {
+      console.log("Life is but a dream");
       // do nothing
     } else {
+      alert("Hello! I am an alert box!!");
+      console.log("Girls want girls");
       // check once render target
       if (this.checkFrameBufferMode === CHECK_MODE_NOT_CHECKED) {
         // const isGood = true;// GlCheck.checkFrameBuffer(this.renderer, this.bfTexture);
