@@ -1225,7 +1225,6 @@ export default class VolumeRenderer3d {
     const matReady = (this.matVolumeRender !== null) && (this.matBF !== null) &&
       (this.matFF !== null) && (this.matRenderToTexture !== null);
     if (!matReady) {
-      console.log("Life is but a dream");
       // do nothing
     } else {
       
@@ -1234,7 +1233,6 @@ export default class VolumeRenderer3d {
       if (this.checkFrameBufferMode === CHECK_MODE_NOT_CHECKED) {
         // const isGood = true;// GlCheck.checkFrameBuffer(this.renderer, this.bfTexture);
         this.checkFrameBufferMode = CHECK_MODE_RESULT_OK;
-        console.log("she fill my mind up with ideas");
       }
 
       if (this.renderScene === SCENE_TYPE_RAYCAST) {
@@ -1282,7 +1280,6 @@ export default class VolumeRenderer3d {
         //this.matWireFrame
         //this.renderer.clear();
         if (this.Tool23D) {
-          
           this.renderer.render(this.scene23D, this.camera);
         }
         //this.renderer.render(this.sceneSphereWireFrame, this.camera);
@@ -1292,7 +1289,6 @@ export default class VolumeRenderer3d {
         this.renderer.clear();
         this.renderer.render(this.scene23D, this.camera);
         */
-        alert("Oui baby!!");
       }
       this.renderCounter++;
     }
