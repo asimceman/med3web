@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/epam/med3web/issues"
   },
-  "homepage": "https://med3web.opensource.epam.com/",
+  "homepage": "https://asimceman.github.io/med3web/",
   "private": false,
   "dependencies": {
     "@tensorflow/tfjs": "^1.7.4",
