@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/epam/med3web/issues"
   },
-  "homepage": "https://asimceman.github.io",
+  "homepage": "https://asimceman.github.io/med3web",
   "private": false,
   "dependencies": {
     "-": "0.0.1",
