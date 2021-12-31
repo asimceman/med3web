@@ -1057,7 +1057,7 @@ class UiOpenMenu extends React.Component {
       <NavDropdown id="basic-nav-dropdown" title={
         <div style={{ display: 'inline-block' }}> 
           <i className="fas fa-folder-open"></i>
-          Open 222
+          Open222
         </div>
       } >
         <NavDropdown.Item href="#actionOpenComputer" onClick={evt => this.onButtonLocalFile(evt)}>
