@@ -722,8 +722,10 @@ class UiOpenMenu extends React.Component {
   }
 
   onButtonLocalFile(evt) {
+    console.log("Losing my mind");
     // console.log('onButtonLocalFile started');
     evt.preventDefault();
+    console.log(evt);
     this.m_fileSelector.click();
   }
 
@@ -1055,7 +1057,7 @@ class UiOpenMenu extends React.Component {
       <NavDropdown id="basic-nav-dropdown" title={
         <div style={{ display: 'inline-block' }}> 
           <i className="fas fa-folder-open"></i>
-          Open
+          Open 222
         </div>
       } >
         <NavDropdown.Item href="#actionOpenComputer" onClick={evt => this.onButtonLocalFile(evt)}>
