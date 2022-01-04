@@ -715,8 +715,10 @@ class UiOpenMenu extends React.Component {
   buildFileSelector() {
     const fileSelector = document.createElement('input');
     fileSelector.setAttribute('type', 'file');
+    //fileSelector.setAttribute('type', 'folder');
+    //console.log("Folder upload check");
     // fileSelector.setAttribute('accept', '.ktx,.dcm,.nii,.hdr,.h,.img,.gz');
-    // fileSelector.setAttribute('multiple', '');
+     fileSelector.setAttribute('multiple', '');
     fileSelector.onchange = this.handleFileSelected;
     return fileSelector;
   }
